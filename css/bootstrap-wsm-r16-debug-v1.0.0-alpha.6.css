@@ -1,0 +1,139 @@
+/* Release 16.0.0 / Version 1.0.0 / 2017.05.10  */
+
+.debug,
+.debug-grid-5,
+.debug-grid-10,
+.debug-grid-15,
+.debug-grid-20,
+.debug-grid-25,
+.debug-grid-30,
+.debug-grid-35,
+.debug-grid-40,
+.debug-grid-45,
+.debug-grid-50 {
+    background-color: transparent;
+    /* default 10x10 */
+    background-size: 0.625rem 0.625rem;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.5) 0.0625rem, transparent 0.0625rem), linear-gradient(to bottom, rgba(255, 0, 0, 0.5) 0.0625rem, transparent 0.0625rem);
+    background-position: 0rem 0rem;
+}
+
+.debug-grid-5 {
+    background-size: 0.3125rem 0.3125rem;
+}
+
+.debug-grid-10 {
+    background-size: 0.625rem 0.625rem;
+}
+
+.debug-grid-15 {
+    background-size: 0.9375rem 0.9375rem;
+}
+
+.debug-grid-20 {
+    background-size: 1.25rem 1.25rem;
+}
+
+.debug-grid-25 {
+    background-size: 1.563rem 1.563rem;
+}
+
+.debug-grid-30 {
+    background-size: 1.875rem 1.875rem;
+}
+
+.debug-grid-35 {
+    background-size: 2.188rem 2.188rem;
+}
+
+.debug-grid-40 {
+    background-size: 2.5rem 2.5rem;
+}
+
+.debug-grid-45 {
+    background-size: 2.813rem 2.813rem;
+}
+
+.debug-grid-50 {
+    background-size: 2.813rem 2.813rem;
+}
+
+.debug-blue {
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.25) 0.0625rem, transparent 0.0625rem), linear-gradient(to bottom, rgba(0, 0, 255, 0.25) 0.0625rem, transparent 0.0625rem);
+}
+
+.debug-purple {
+    background-image: linear-gradient(to right, rgba(128, 0, 128, 0.5) 0.0625rem, transparent 0.0625rem), linear-gradient(to bottom, rgba(128, 0, 128, 0.5) 0.0625rem, transparent 0.0625rem);
+}
+
+.debug-green {
+    background-image: linear-gradient(to right, rgba(0, 255, 0, 0.5) 0.0625rem, transparent 0.0625rem), linear-gradient(to bottom, rgba(0, 255, 0, 0.5) 0.0625rem, transparent 0.0625rem);
+}
+
+.debug-red {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.5) 0.0625rem, transparent 0.0625rem), linear-gradient(to bottom, rgba(255, 0, 0, 0.5) 0.0625rem, transparent 0.0625rem);
+}
+
+.debug-orange {
+    background-image: linear-gradient(to right, rgba(255, 165, 0, 0.5) 0.0625rem, transparent 0.0625rem), linear-gradient(to bottom, rgba(255, 165, 0, 0.5) 0.0625rem, transparent 0.0625rem);
+}
+
+.debug-yellow {
+    background-image: linear-gradient(to right, rgba(255, 255, 0, 0.5) 0.0625rem, transparent 0.0625rem), linear-gradient(to bottom, rgba(255, 255, 0, 0.5) 0.0625rem, transparent 0.0625rem);
+}
+
+.debug-black {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 0.0625rem, transparent 0.0625rem), linear-gradient(to bottom, rgba(0, 0, 0, 1) 0.0625rem, transparent 0.0625rem);
+}
+
+.debug-white {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 1) 0.0625rem, transparent 0.0625rem), linear-gradient(to bottom, rgba(255, 255, 255, 1) 0.0625rem, transparent 0.0625rem);
+}
+
+body.debug-all,
+body.debug-all .nav-tabs,
+body.debug-all .dropdown-menu,
+body.debug-all .navbar,
+body.debug-all .navbar-collapse,
+body.debug-all .container,
+body.debug-all .footer,
+body.debug-all .modal-header,
+body.debug-all .modal-body,
+body.debug-all .modal-footer,
+body.debug-all .alert,
+body.debug-all .alert-docs span,
+body.debug-all .alert-settings span {
+    /* background-color: transparent; */
+    background-size: 0.625rem 0.625rem;
+    background-image: linear-gradient(to right, rgba(0, 0, 255, 0.25) 0.0625rem, transparent 0.0625rem), linear-gradient(to bottom, rgba(0, 0, 255, 0.25) 0.0625rem, transparent 0.0625rem);
+    background-position: 0rem 0rem;
+}
+
+body.debug-all {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.25) 0.0625rem, transparent 0.0625rem), linear-gradient(to bottom, rgba(0, 0, 0, 0.25) 0.0625rem, transparent 0.0625rem);
+}
+
+body.debug-all .container {
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.5) 0.0625rem, transparent 0.0625rem), linear-gradient(to bottom, rgba(255, 0, 0, 0.5) 0.0625rem, transparent 0.0625rem);
+}
+
+body.debug-all .alert {
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0.5) 0.0625rem, transparent 0.0625rem), linear-gradient(to bottom, rgba(255, 255, 255, 0.5) 0.0625rem, transparent 0.0625rem);
+}
+
+body.debug-all .nav-tabs,
+body.debug-all .navbar-collapse,
+body.debug-all .alert-docs,
+body.debug-all .alert-settings {
+    background-image: linear-gradient(to right, rgba(0, 255, 0, 0.5) 0.0625rem, transparent 0.0625rem), linear-gradient(to bottom, rgba(0, 255, 0, 0.5) 0.0625rem, transparent 0.0625rem);
+}
+
+body.debug-all .navbar,
+body.debug-all .footer,
+body.debug-all .modal-header,
+body.debug-all .modal-body,
+body.debug-all .modal-footer,
+body.debug-all .alert-docs span,
+body.debug-all .alert-settings span {
+    background-image: linear-gradient(to right, rgba(255, 165, 0, 0.5) 0.0625rem, transparent 0.0625rem), linear-gradient(to bottom, rgba(255, 165, 0, 0.5) 0.0625rem, transparent 0.0625rem);
+}

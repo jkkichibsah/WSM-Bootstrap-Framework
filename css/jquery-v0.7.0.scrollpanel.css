@@ -1,0 +1,19 @@
+.scrollpanel .sp-scrollbar {
+    width: 0.625rem;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    margin: 0.625rem;
+    border: 0.0625rem solid #99b2c2;
+}
+
+.scrollpanel .sp-scrollbar .sp-thumb {
+    background-color: #0072aa;
+    transition: height 0.2s ease-in-out;
+    border-radius: 0.25rem;
+}
+
+.scrollpanel .sp-scrollbar.active .sp-thumb {
+    background-color: #e08e18;
+    border-radius: 0.25rem;
+}

@@ -1,0 +1,412 @@
+/* Release 16.0.0 / Version 1.0.0 / 2017.05.10  */
+
+
+/* 
+ * These are the official OpenText Corporate Colours defined by UXD 
+ * Team for Visual Design Specifications v1 .
+ */
+
+
+/* COLOR_MIDNIGHT_BLUE     #004b71 */
+
+.fg-midnight-blue {
+    color: #004b71;
+}
+
+.bg-midnight-blue {
+    background-color: #004b71;
+}
+
+.bd-midnight-blue {
+    border-color: #004b71;
+}
+
+
+/* COLOR_CORPORATE_BLUE    #0072aa */
+
+.fg-corporate-blue {
+    color: #0072aa;
+}
+
+.bg-corporate-blue {
+    background-color: #0072aa;
+}
+
+.bd-corporate-blue {
+    border-color: #0072aa;
+}
+
+
+/* COLOR_ECM_BLUE          #00a4d8 */
+
+.fg-ecm-blue {
+    color: #00a4d8
+}
+
+.bg-ecm-blue {
+    background-color: #00a4d8
+}
+
+.bd-ecm-blue {
+    border-color: #00a4d8
+}
+
+
+/* COLOR_GREY_BLUE         #99b2c2 */
+
+.fg-grey-blue {
+    color: #99b2c2;
+}
+
+.bg-grey-blue {
+    background-color: #99b2c2;
+}
+
+.bd-grey-blue {
+    border-color: #99b2c2;
+}
+
+
+/* COLOR_COOL_BLUE         #96d1ef */
+
+.fg-cool-blue {
+    color: #96d1ef;
+}
+
+.bg-cool-blue {
+    background-color: #96d1ef;
+}
+
+.bd-cool-blue {
+    border-color: #96d1ef;
+}
+
+
+/* COLOR_SKY_BLUE          #c3e5f6 */
+
+.fg-sky-blue {
+    color: #c3e5f6;
+}
+
+.bg-sky-blue {
+    background-color: #c3e5f6;
+}
+
+.bd-sky-blue {
+    border-color: #c3e5f6;
+}
+
+
+/* COLOR_ICE_BLUE          #eaf6fc */
+
+.fg-ice-blue {
+    color: #eaf6fc;
+}
+
+.bg-ice-blue {
+    background-color: #eaf6fc;
+}
+
+.bd-ice-blue {
+    border-color: #eaf6fc;
+}
+
+
+/* COLOR_GOLD              #e08e18 */
+
+.fg-gold {
+    color: #e08e18;
+}
+
+.bg-gold {
+    background-color: #e08e18;
+}
+
+.bd-gold {
+    border-color: #e08e18;
+}
+
+
+/* COLOR_DISCOVERY_YELLOW  #eeb111 */
+
+.fg-discovery-yellow {
+    color: #eeb111;
+}
+
+.bg-discovery-yellow {
+    background-color: #eeb111;
+}
+
+.bd-discovery-yellow {
+    border-color: #eeb111;
+}
+
+
+/* COLOR_LIGHT_YELLOW      #fff6da */
+
+.fg-light-yellow {
+    color: #fff6da;
+}
+
+.bg-light-yellow {
+    background-color: #fff6da;
+}
+
+.bd-light-yellow {
+    border-color: #fff6da;
+}
+
+
+/* COLOR_SUNGLOW_YELLOW    #ffe99b */
+
+.fg-sunglow-yellow {
+    color: #ffe99b;
+}
+
+.bg-sunglow-yellow {
+    background-color: #ffe99b;
+}
+
+.bd-sunglow-yellow {
+    border-color: #ffe99b;
+}
+
+
+/* COLOR_SAND_YELLOW       #ffffc8 */
+
+.fg-sand-yellow {
+    color: #ffffc8;
+}
+
+.bg-sand-yellow {
+    background-color: #ffffc8;
+}
+
+.bd-sand-yellow {
+    border-color: #ffffc8;
+}
+
+
+/* COLOR_FOREST_GREEN      #146634 */
+
+.fg-forest-green {
+    color: #146634;
+}
+
+.bg-forest-green {
+    background-color: #146634;
+}
+
+.bd-forest-green {
+    border-color: #146634;
+}
+
+
+/* COLOR_BPM_TEAL          #00a389 */
+
+.fg-bpm-teal {
+    color: #00a389;
+}
+
+.bg-bpm-teal {
+    background-color: #00a389;
+}
+
+.bd-bpm-teal {
+    border-color: #00a389;
+}
+
+
+/* COLOR_MINT_GREEN        #e7f1d9 */
+
+.fg-mint-green {
+    color: #e7f1d9;
+}
+
+.bg-mint-green {
+    background-color: #e7f1d9;
+}
+
+.bd-mint-green {
+    border-color: #e7f1d9;
+}
+
+
+/* COLOR_GREEN             #8cc53e */
+
+.fg-green {
+    color: #8cc53e;
+}
+
+.bg-green {
+    background-color: #8cc53e;
+}
+
+.bd-green {
+    border-color: #8cc53e;
+}
+
+
+/* COLOR_RED               #df3324 */
+
+.fg-red {
+    color: #df3324;
+}
+
+.bg-red {
+    background-color: #df3324;
+}
+
+.bd-red {
+    border-color: #df3324;
+}
+
+
+/* COLOR_LIGHT_RED         #fae9ea */
+
+.fg-light-red {
+    color: #fae9ea;
+}
+
+.bg-light-red {
+    background-color: #fae9ea;
+}
+
+.fg-light-red {
+    color: #fae9ea;
+}
+
+
+/* COLOR_BLACK             #000000 */
+
+.fg-black {
+    color: #000000;
+}
+
+.bg-black {
+    background-color: #000000;
+}
+
+.fg-black {
+    color: #000000;
+}
+
+
+/* COLOR_ASH_GREY          #999999 */
+
+.fg-ash-grey {
+    color: #999999;
+}
+
+.bg-ash-grey {
+    background-color: #999999;
+}
+
+.fg-ash-grey {
+    color: #999999;
+}
+
+
+/* COLOR_DIM_GREY          #666666 */
+
+.fg-dim-grey {
+    color: #666666;
+}
+
+.bg-dim-grey {
+    background-color: #666666;
+}
+
+.fg-dim-grey {
+    color: #666666;
+}
+
+
+/* COLOR_STEEL_GREY        #333333 */
+
+.fg-steel-grey {
+    color: #333333;
+}
+
+.bg-steel-grey {
+    background-color: #333333;
+}
+
+.fg-steel-grey {
+    color: #333333;
+}
+
+
+/* COLOR_CADET_GREY        #a9a9a9 */
+
+.fg-cadet-grey {
+    color: #a9a9a9;
+}
+
+.bg-cadet-grey {
+    background-color: #a9a9a9;
+}
+
+.fg-cadet-grey {
+    color: #a9a9a9;
+}
+
+
+/* COLOR_SILVER_GREY       #cccccc */
+
+.fg-silver-grey {
+    color: #cccccc;
+}
+
+.bg-silver-grey {
+    background-color: #cccccc;
+}
+
+.fg-silver-grey {
+    color: #cccccc;
+}
+
+
+/* COLOR_LIGHT_GREY        #dcdcdc */
+
+.fg-light-grey {
+    color: #dcdcdc;
+}
+
+.bg-light-grey {
+    background-color: #dcdcdc;
+}
+
+.fg-light-grey {
+    color: #dcdcdc;
+}
+
+
+/* COLOR_MISTY_GREY        #f5f5f5 */
+
+.fg-misty-grey {
+    color: #f5f5f5;
+}
+
+.bg-misty-grey {
+    background-color: #f5f5f5;
+}
+
+.fg-misty-grey {
+    color: #f5f5f5;
+}
+
+
+/* COLOR_WHITE             #ffffff */
+
+.fg-white {
+    color: #ffffff;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.fg-white {
+    color: #ffffff;
+}

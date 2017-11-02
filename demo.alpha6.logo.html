@@ -1,0 +1,760 @@
+<!-- Release 16.0.0 / Version 1.0.0 / 2017.05.10 -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/normalize-v6.0.0.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap-v4.0.0-alpha.6.min.css">
+
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="css/font-awesome-v4.7.0.min.css">
+
+    <!-- Scrollpanel -->
+    <link rel="stylesheet" href="css/jquery-v0.7.0.scrollpanel.min.css">
+
+    <!-- Bootstrap CSS for WSM Release 16 / Basics -->
+    <link rel="stylesheet" href="css/bootstrap-wsm-r16-basic-v1.0.0-alpha.6.min.css">
+    <link rel="stylesheet" href="css/bootstrap-wsm-r16-colors-v1.0.0-alpha.6.min.css">
+
+    <!-- Bootstrap CSS for WSM Release 16 / Debug -->
+    <link rel="stylesheet" href="css/bootstrap-wsm-r16-debug-v1.0.0-alpha.6.min.css">
+
+    <!-- Bootstrap CSS for WSM Release 16 / Overlay Help -->
+    <!-- <link rel="stylesheet" href="css/bootstrap-wsm-r16-overlayhelp-v1.0.0-alpha.6.min.css"> -->
+
+    <!-- Bootstrap CSS for WSM Release 16 / SmartEdit -->
+    <!-- <link rel="stylesheet" href="css/bootstrap-wsm-r16-smartedit-v1.0.0-alpha.6.min.css"> -->
+
+</head>
+
+<body class="plugin #debug-all">
+
+    <!-- Header : Begin -->
+    <div class="header">
+
+        <!-- Navigation Bar : Begin -->
+        <nav class="navbar navbar-toggleable-md navbar-light bg-white">
+
+            <!-- Tablet / Smartphone Menue : Begin -->
+            <button id="menue" class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Tablet / Smartphone Menue : End -->
+
+            <!-- SVG-Logo : Begin -->
+            <a class="navbar-brand logo" href="http://owug.org" target="_blank">
+                <object class="svg-logo" data="svg/owug-logo-2017-seo.svg" type="image/svg+xml" tabindex="-1">
+                        <span>Your browser doesn't support SVG images</span>
+                </object>
+            </a>
+            <!-- SVG-Logo : End -->
+
+            <!-- Icon : Begin -->
+            <!-- <a class="navbar-brand icon" href="#" target="_blank" tabindex="-1">
+                <i class="fa fa-pencil-square-o fg-dim-grey" aria-hidden="true"></i>
+            </a> -->
+            <!-- icon : End -->
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <hr>
+                <!-- Navigation : Begin  -->
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item" disabled="true">
+                        <span class="nav-link name">{Plug-In / App Name}</span>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Active <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" tabindex="-1" href="#">Disabled</a>
+                    </li>
+                </ul>
+                <!-- Navigation : End  -->
+
+                <!-- Button Group : Begin -->
+                <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                    <button type="button" class="btn btn-secondary">1</button>
+                    <button type="button" class="btn btn-outline-secondary">2</button>
+                    <button type="button" class="btn btn-secondary disabled" tabindex="-1">3</button>
+                    <div class="btn-group" role="group">
+                        <button id="btnGroupDropNav1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="btnGroupDropNav1">
+                            <h6 class="dropdown-header">Dropdown header</h6>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item active" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <a class="dropdown-item disabled" tabindex="-1" href="#">Disabled action</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Button Group : End -->
+
+                <!-- Dropdown : Begin -->
+                <div class="dropdown">
+                    <!-- show -->
+                    <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuNav1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown 1</button>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuNav1">
+                        <h6 class="dropdown-header">Dropdown header 1</h6>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item active" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item disabled" tabindex="-1" href="#">Disabled action</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <!-- show -->
+                    <button class="btn btn-outline-primary dropdown-toggle" type="button" id="dropdownMenuNav2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown 2</button>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuNav2">
+                        <h6 class="dropdown-header">Dropdown header 2</h6>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item active" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item disabled" tabindex="-1" href="#">Disabled action</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <!-- show -->
+                    <button class="btn btn-outline-primary dropdown-toggle disabled" tabindex="-1" type="button" id="dropdownMenuNav3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown 3</button>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuNav3">
+                        <h6 class="dropdown-header">Dropdown header 3</h6>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item active" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item disabled" tabindex="-1" href="#">Disabled action</a>
+                    </div>
+                </div>
+                <!-- Dropdown : End -->
+
+                <!-- Search : Begin  -->
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search for ...">
+                    <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+                </form>
+                <!-- Search : End  -->
+
+            </div>
+
+            <!-- Open Settings / Docs : Begin  -->
+            <button id="settings-open" type="button" class="btn btn-outline-primary float-right" data-toggle="slide" data-target="#settings"><i class="fa fa-cog" aria-hidden="true"></i></button>
+            <button id="docs-open" type="button" class="btn btn-outline-primary float-right" data-toggle="slide" data-target="#docs"><i class="fa fa-question" aria-hidden="true"></i></button>
+            <!-- Open Settings / Docs : End -->
+
+        </nav>
+        <!-- Navigation Bar : End -->
+
+    </div>
+    <!-- Header : End -->
+
+    <!-- Content Row : Begin -->
+    <div class="row">
+
+        <!-- Content : Begin -->
+        <div class="col-12 scrollpanel">
+            <!-- Navigation Tabs : Begin -->
+            <ul class="nav nav-tabs">
+                <li class="nav-item active">
+                    <a class="nav-link" data-target="#tab1" data-toggle="tabs">Tab 1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-target="#tab2" data-toggle="tabs">Tab 2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-target="#tab3" data-toggle="tabs">Tab 3</a>
+                </li>
+                <li class="nav-item disabled" tabindex="-1">
+                    <a class="nav-link" data-target="#">Disabled</a>
+                </li>
+            </ul>
+            <!-- Navigation Tabs : End -->
+
+            <hr class="clearfix">
+
+            <div id="tab1" class="row nav-tab active">
+
+                <!-- Content Left : Begin -->
+                <div class="col-6">
+                    <div class="container content">
+                        <h1>Tab 1</h1>
+                        <h2>Web Site Management Server</h2>
+                        <h3>Release 16</h3>
+
+                        <hr class="clearfix">
+
+                        <h4>Plug-In / App Template</h4>
+
+                        <hr class="clearfix">
+
+                        <!-- Buttons : Begin -->
+                        <button type="button" class="btn btn-primary">Primary</button>
+                        <button type="button" class="btn btn-primary active">Primary</button>
+                        <button type="button" class="btn btn-ot btn-primary disabled" tabindex="-1">Primary</button>
+                        <button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Secondary</button>
+                        <br><br>
+                        <button type="button" class="btn btn-info bg-midnight-blue" data-toggle="collapse" data-target="#info">Info</button>
+                        <button type="button" class="btn btn-success bg-forest-green" data-toggle="collapse" data-target="#success">Success</button>
+                        <button type="button" class="btn btn-warning bg-gold" data-toggle="collapse" data-target="#warning">Warning</button>
+                        <button type="button" class="btn btn-danger bg-red" data-toggle="collapse" data-target="#danger">Danger</button>
+                        <button type="button" class="btn btn-link">Link</button>
+                        <!-- Buttons : End -->
+
+                        <hr class="clearfix">
+
+                        <!-- Buttons Outline : Begin -->
+                        <button type="button" class="btn btn-outline-primary">Primary</button>
+                        <button type="button" class="btn btn-outline-primary active">Primary</button>
+                        <button type="button" class="btn btn-ot btn-outline-primary disabled" tabindex="-1">Primary</button>
+                        <button type="button" class="btn btn-outline-secondary" data-toggle="tooltip" data-placement="bottom" title="Tooltip on bottom">Secondary</button>
+                        <br><br>
+                        <button type="button" class="btn btn-outline-info bd-midnight-blue" data-toggle="collapse" data-target="#info">Info</button>
+                        <button type="button" class="btn btn-outline-success bd-forest-green" data-toggle="collapse" data-target="#success">Success</button>
+                        <button type="button" class="btn btn-outline-warning bd-gold" data-toggle="collapse" data-target="#warning">Warning</button>
+                        <button type="button" class="btn btn-outline-danger bd-red" data-toggle="collapse" data-target="#danger">Danger</button>
+                        <button type="button" class="btn btn-link disabled" tabindex="-1">Link Disabled</button>
+                        <!-- Buttons Outline : End -->
+
+                        <hr>
+
+                        <!-- Anchor-Toggle : Begin -->
+                        <a class="anchor-toggle collapsed" aria-expanded="false" aria-controls="collapseExample" href="#collapseExample" data-toggle="collapse"><i class="fa fa-caret-right" aria-hidden="true"></i><i class="fa fa-caret-down" aria-hidden="true"></i>Toggle Anchor</a>
+                        <!-- Anchor-Toggle : End -->
+
+                        <!-- Anchor-Toggle-Card : Begin -->
+                        <div class="collapse" id="collapseExample">
+                            <div class="card card-block">
+                                <!-- Button-Radio : Begin -->
+                                <div class="btn-group" data-toggle="buttons">
+                                    <label class="btn btn-outline-primary active">
+                                        <input type="radio" name="options" id="option1" checked><i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                    </label>
+                                    <label class="btn btn-outline-primary">
+                                        <input type="radio" name="options" id="option2"><i class="fa fa-universal-access" aria-hidden="true"></i>
+                                    </label>
+                                    <label class="btn btn-outline-primary">
+                                        <input type="radio" name="options" id="option3"><i class="fa fa-user-secret" aria-hidden="true"></i>
+                                    </label>
+                                </div>
+                                <div class="btn-group" data-toggle="buttons">
+                                    <label class="btn btn-primary bg-steel-grey active">
+                                        <input type="radio" name="options" id="option1" checked><i class="fa fa-wheelchair" aria-hidden="true"></i>
+                                    </label>
+                                    <label class="btn btn-primary bg-steel-grey">
+                                        <input type="radio" name="options" id="option2"><i class="fa fa-universal-access" aria-hidden="true"></i>
+                                    </label>
+                                    <label class="btn btn-primary bg-steel-grey">
+                                        <input type="radio" name="options" id="option3"><i class="fa fa-user-secret" aria-hidden="true"></i>
+                                    </label>
+                                </div>
+                                <!-- Button-Radio : End -->
+                                <br>
+                                <!-- Button-Checkbox : Begin -->
+                                <div class="btn-group" data-toggle="buttons">
+                                    <label class="btn btn-outline-primary active">
+                                        <input type="checkbox" checked><i class="fa fa-sitemap" aria-hidden="true"></i>
+                                    </label>
+                                    <label class="btn btn-outline-primary">
+                                        <input type="checkbox"><i class="fa fa-file-o" aria-hidden="true"></i>
+                                    </label>
+                                    <label class="btn btn-outline-primary fg-red">
+                                        <input type="checkbox"><i class="fa fa-link" aria-hidden="true"></i>
+                                    </label>
+                                </div>
+                                <div class="btn-group" data-toggle="buttons">
+                                    <label class="btn btn-primary bg-steel-grey active">
+                                        <input type="checkbox" checked><i class="fa fa-sitemap" aria-hidden="true"></i>
+                                    </label>
+                                    <label class="btn btn-primary bg-steel-grey">
+                                        <input type="checkbox"><i class="fa fa-file-o" aria-hidden="true"></i>
+                                    </label>
+                                    <label class="btn btn-primary bg-steel-grey">
+                                        <input type="checkbox"><i class="fa fa-link" aria-hidden="true"></i>
+                                    </label>
+                                </div>
+                                <!-- Button-Checkbox : End -->
+
+                                <br> Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                            </div>
+                        </div>
+                        <!-- Anchor-Toggle-Card : Begin -->
+
+                    </div>
+                </div>
+                <!-- Content Left : End -->
+
+                <!-- Content Right : Begin -->
+                <div class="col-6">
+                    <div class="container content">
+
+                        <!-- Button trigger modal : Begin -->
+                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Launch modal</button>
+                        <!-- Button trigger modal : End -->
+
+                        <hr>
+
+                        <!-- Button Group : Begin -->
+                        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                            <button type="button" class="btn btn-secondary">1</button>
+                            <button type="button" class="btn btn-outline-secondary">2</button>
+                            <button type="button" class="btn btn-secondary disabled" tabindex="-1">3</button>
+                            <div class="btn-group" role="group">
+                                <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+                                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                    <a class="dropdown-item active" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item disabled" tabindex="-1" href="#">Disabled action</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Button Group : End -->
+
+                        <!-- Button Group : Begin -->
+                        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                            <button type="button" class="btn btn-secondary">1</button>
+                            <button type="button" class="btn btn-outline-secondary">2</button>
+                            <button type="button" class="btn btn-secondary disabled" tabindex="-1">3</button>
+                            <div class="btn-group" role="group">
+                                <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+                                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                    <a class="dropdown-item active" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item disabled" tabindex="-1" href="#">Disabled action</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Button Group : End -->
+
+                        <br><br>
+
+                        <!-- Button Group : Begin -->
+                        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                            <button type="button" class="btn btn-secondary bg-red">1</button>
+                            <button type="button" class="btn btn-outline-secondary bd-ecm-blue">2</button>
+                            <button type="button" class="btn btn-secondary disabled" tabindex="-1">3</button>
+                            <div class="btn-group dropup" role="group">
+                                <button id="btnGroupDrop1" type="button" class="btn btn-secondary bg-forest-green dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropup</button>
+                                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                    <a class="dropdown-item active" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item disabled" tabindex="-1" href="#">Disabled action</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Button Group : End -->
+
+                        <!-- Button Group : Begin -->
+                        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                            <button type="button" class="btn btn-secondary bg-gold">1</button>
+                            <button type="button" class="btn btn-outline-secondary bd-gold">2</button>
+                            <button type="button" class="btn btn-secondary disabled" tabindex="-1">3</button>
+                            <div class="btn-group dropup" role="group">
+                                <button id="btnGroupDrop1" type="button" class="btn btn-secondary bg-red dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropup</button>
+                                <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                    <a class="dropdown-item active" href="#">Action</a>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                    <a class="dropdown-item disabled" tabindex="-1" href="#">Disabled action</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Button Group : End -->
+
+                        <hr class="clearfix">
+
+                        <!-- DropDown : Begin -->
+                        <div class="dropdown">
+                            <!-- show -->
+                            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown 1</button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <h6 class="dropdown-header">Dropdown header 1</h6>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item active" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item disabled" tabindex="-1" href="#">Disabled action</a>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="dropdown">
+                            <!-- show -->
+                            <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown 2</button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                                <h6 class="dropdown-header">Dropdown header 2</h6>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item active" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item disabled" tabindex="-1" href="#">Disabled action</a>
+                            </div>
+                        </div>
+
+                        <br>
+
+                        <div class="dropdown">
+                            <!-- show -->
+                            <button class="btn btn-outline-secondary dropdown-toggle disabled" tabindex="-1" type="button" id="dropdownMenu3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown 3</button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                                <h6 class="dropdown-header">Dropdown header 3</h6>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item active" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item disabled" tabindex="-1" href="#">Disabled action</a>
+                            </div>
+                        </div>
+                        <!-- DropDown : End -->
+
+                        <!-- DropUp : Begin -->
+                        <br>
+
+                        <div class="btn-group dropup">
+                            <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropup</button>
+                            <div class="dropdown-menu">
+                                <h6 class="dropdown-header">Dropup header 1</h6>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item active" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item disabled" tabindex="-1" href="#">Disabled action</a>
+                            </div>
+                        </div>
+                        <!-- DropUp : End -->
+
+                        <hr class="clearfix">
+
+                        <!-- Button trigger slide left : Begin -->
+                        <button type="button" class="btn btn-primary bg-midnight-blue" data-toggle="slide" data-target="#slideLeft">Launch slide left</button>
+                        <!-- Button trigger slide left : End -->
+
+                        <!-- Button trigger slide right : Begin -->
+                        <button type="button" class="btn btn-primary bg-ecm-blue" data-toggle="slide" data-target="#slideRight">Launch slide right</button>
+                        <!-- Button trigger slide right : End -->
+
+                        <hr>
+
+                        <!-- Button trigger slide left : Begin -->
+                        <button type="button" class="btn btn-primary bg-grey-blue" data-toggle="slide" data-target="#slideTop">Launch slide top</button>
+                        <!-- Button trigger slide left : End -->
+
+                        <!-- Button trigger slide right : Begin -->
+                        <button type="button" class="btn btn-primary bg-cool-blue" data-toggle="slide" data-target="#slideBottom">Launch slide bottom</button>
+                        <!-- Button trigger slide right : End -->
+
+                    </div>
+                </div>
+                <!-- Content Right : End -->
+
+            </div>
+
+            <div id="tab2" class="row nav-tab">
+                <div class="col-6">
+                    <div class="container content">
+
+                        <h1>Tab 2</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div id="tab3" class="row nav-tab">
+                <div class="col-6">
+                    <div class="container content">
+
+                        <h1>Tab 3</h1>
+                    </div>
+                </div>
+            </div>
+
+            <hr class="clearfix">
+            <!-- Alert Message Info : Begin -->
+            <div id="info" class="alert alert-info fade collapse" role="alert">
+                <i class="fa fa-info-circle" aria-hidden="true"></i><strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+                <button type="button" class="close" data-toggle="collapse" data-target="#info" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <!-- Alert Message Info : End -->
+
+            <!-- Alert Message Success : Begin -->
+            <div id="success" class="alert alert-success fade collapse" role="alert">
+                <i class="fa fa-check" aria-hidden="true"></i><strong>Well done!</strong> You successfully read this important alert message.
+                <button type="button" class="close" data-toggle="collapse" data-target="#success" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <!-- Alert Message Success : End -->
+
+            <!-- Alert Message Warníng : Begin -->
+            <div id="warning" class="alert alert-warning fade collapse" role="alert">
+                <i class="fa fa-exclamation-triangle" aria-hidden="true"></i><strong>Warning!</strong> Better check yourself, you're not looking too good.
+                <button type="button" class="close" data-toggle="collapse" data-target="#warning" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <!-- Alert Message Warníng : End -->
+
+            <!-- Alert Message Danger : Begin -->
+            <div id="danger" class="alert alert-danger fade collapse" role="alert">
+                <i class="fa fa-times-circle" aria-hidden="true"></i><strong>Oh snap!</strong> Change a few things up and try submitting again.
+                <button type="button" class="close" data-toggle="collapse" data-target="#danger" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            </div>
+            <!-- Alert Message Danger : End -->
+
+            <!-- Slide Left : Begin -->
+            <div id="slideLeft" class="slide slide-left bg-white" role="slide">
+                <i class="fa fa-arrow-circle-left" aria-hidden="true"></i><strong>Slide Left</strong> Change a few things and save it.
+                <button type="button" class="close" data-toggle="slide" data-target="#slideLeft" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <hr>
+                <span class="scrollpanel">
+                    ...
+                </span>
+                <hr>
+                <button type="button" class="btn btn-outline-secondary float-right" data-toggle="slide" data-target="#slideLeft">Cancel</button>
+                <button type="button" class="btn btn-primary float-right">Save changes</button>
+            </div>
+            <!-- Slide Left : End -->
+
+            <!-- Slide Right : Begin -->
+            <div id="slideRight" class="slide slide-right bg-white" role="slide">
+                <i class="fa fa-arrow-circle-right" aria-hidden="true"></i><strong>Slide Right</strong> Change a few things and save it.
+                <button type="button" class="close" data-toggle="slide" data-target="#slideRight" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <hr>
+                <span class="scrollpanel">
+                    ...
+                </span>
+                <hr>
+                <button type="button" class="btn btn-outline-secondary float-right" data-toggle="slide" data-target="#slideRight">Cancel</button>
+                <button type="button" class="btn btn-primary float-right">Save changes</button>
+            </div>
+            <!-- Slide Right : End -->
+
+            <!-- Slide Top : Begin -->
+            <div id="slideTop" class="slide slide-top bg-white" role="slide">
+                <i class="fa fa-arrow-circle-up" aria-hidden="true"></i><strong>Slide Top</strong> Change a few things and save it.
+                <button type="button" class="close" data-toggle="slide" data-target="#slideTop" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <hr>
+                <span class="scrollpanel">
+                    ...
+                </span>
+                <hr>
+                <button type="button" class="btn btn-outline-secondary float-right" data-toggle="slide" data-target="#slideTop">Cancel</button>
+                <button type="button" class="btn btn-primary float-right">Save changes</button>
+            </div>
+            <!-- Slide Top : End -->
+
+            <!-- Slide Bottom : Begin -->
+            <div id="slideBottom" class="slide slide-bottom bg-white" role="slide">
+                <i class="fa fa-arrow-circle-down" aria-hidden="true"></i><strong>Slide Bottom</strong> Change a few things and save it.
+                <button type="button" class="close" data-toggle="slide" data-target="#slideBottom" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <hr>
+                <span class="scrollpanel">
+                    ...
+                </span>
+                <hr>
+                <button type="button" class="btn btn-outline-secondary float-right" data-toggle="slide" data-target="#slideBottom">Cancel</button>
+                <button type="button" class="btn btn-primary float-right">Save changes</button>
+            </div>
+            <!-- Slide Bottom : End -->
+
+            <!-- Slide Settings : Begin -->
+            <div id="settings" class="slide slide-top bg-white" role="slide">
+                <i class="fa fa-cog" aria-hidden="true"></i><strong>Settings</strong> Change a few things and save it.
+                <button type="button" class="close" data-toggle="slide" data-target="#settings" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <hr>
+                <span class="scrollpanel">
+                    ...
+                </span>
+                <hr>
+                <button type="button" class="btn btn-outline-secondary float-right" data-toggle="slide" data-target="#settings">Cancel</button>
+                <button type="button" class="btn btn-primary float-right">Save changes</button>
+            </div>
+            <!-- Slide Settings : End -->
+
+            <!-- Slide Docs : Begin -->
+            <div id="docs" class="slide slide-top bg-white" role="slide">
+                <i class="fa fa-question" aria-hidden="true"></i><strong>Documentation</strong> Have a look into.
+                <button type="button" class="close" data-toggle="slide" data-target="#docs" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <hr>
+                <span class="scrollpanel">
+                    <h1><a id="jumph1">Headline h1</a></h1>
+                    <p><b>Weit</b> hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik,
+                    eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land,
+                    in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben.</p>
+                    <p>Eines Tages aber beschloß eine kleine Zeile Blindtext, ihr Name war Lorem Ipsum, hinaus zu gehen in die weite Grammatik. Der große Oxmox riet ihr davon ab,
+                    da es dort wimmele von bösen Kommata, wilden Fragezeichen und hinterhältigen Semikoli, doch das Blindtextchen ließ sich nicht beirren. Es packte seine sieben Versalien,
+                    schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück auf die Skyline
+                    seiner Heimatstadt Buchstabhausen, die Headline von Alphabetdorf und die Subline seiner eigenen Straße, der Zeilengasse.</p>
+                    <p>Wehmütig lief ihm eine rhetorische Frage über die Wange, dann setzte es seinen Weg fort. Unterwegs traf es eine Copy. Die Copy warnte das Blindtextchen, da,
+                    wo sie herkäme wäre sie zigmal umgeschrieben worden und alles, was von ihrem Ursprung noch übrig wäre, sei das Wort "und" und das Blindtextchen solle umkehren und wieder in sein eigenes,
+                    sicheres Land zurückkehren. Doch alles Gutzureden konnte es nicht überzeugen und so dauerte es nicht lange, bis ihm ein paar heimtückische Werbetexter auflauerten, es mit Longe und Parole
+                    betrunken machten und es dann in ihre Agentur schleppten, wo sie es für ihre Projekte wieder und wieder mißbrauchten.</p>
+                    <p>Und wenn es nicht umgeschrieben wurde, dann benutzen Sie es immernoch. <a href="#jumph2">Anchor</a></p>
+                    <hr>
+                    <h2><a id="jumph2">Headline h2</a></h2>
+                    <p><i>Weit</i> hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik,
+                    eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land,
+                    in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben.</p>
+                    <p>Eines Tages aber beschloß eine kleine Zeile Blindtext, ihr Name war Lorem Ipsum, hinaus zu gehen in die weite Grammatik. Der große Oxmox riet ihr davon ab,
+                    da es dort wimmele von bösen Kommata, wilden Fragezeichen und hinterhältigen Semikoli, doch das Blindtextchen ließ sich nicht beirren. Es packte seine sieben Versalien,
+                    schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück auf die Skyline
+                    seiner Heimatstadt Buchstabhausen, die Headline von Alphabetdorf und die Subline seiner eigenen Straße, der Zeilengasse.</p>
+                    <p>Wehmütig lief ihm eine rhetorische Frage über die Wange, dann setzte es seinen Weg fort. Unterwegs traf es eine Copy. Die Copy warnte das Blindtextchen, da,
+                    wo sie herkäme wäre sie zigmal umgeschrieben worden und alles, was von ihrem Ursprung noch übrig wäre, sei das Wort "und" und das Blindtextchen solle umkehren und wieder in sein eigenes,
+                    sicheres Land zurückkehren. Doch alles Gutzureden konnte es nicht überzeugen und so dauerte es nicht lange, bis ihm ein paar heimtückische Werbetexter auflauerten, es mit Longe und Parole
+                    betrunken machten und es dann in ihre Agentur schleppten, wo sie es für ihre Projekte wieder und wieder mißbrauchten.</p>
+                    <p>Und wenn es nicht umgeschrieben wurde, dann benutzen Sie es immernoch. <a href="#jumph3">Anchor</a></p>
+                    <hr>
+                    <h3><a id="jumph3">Headline h3</a></h3>
+                    <p><em>Weit</em> hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik,
+                    eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land,
+                    in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben.</p>
+                    <p>Eines Tages aber beschloß eine kleine Zeile Blindtext, ihr Name war Lorem Ipsum, hinaus zu gehen in die weite Grammatik. Der große Oxmox riet ihr davon ab,
+                    da es dort wimmele von bösen Kommata, wilden Fragezeichen und hinterhältigen Semikoli, doch das Blindtextchen ließ sich nicht beirren. Es packte seine sieben Versalien,
+                    schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück auf die Skyline
+                    seiner Heimatstadt Buchstabhausen, die Headline von Alphabetdorf und die Subline seiner eigenen Straße, der Zeilengasse.</p>
+                    <p>Wehmütig lief ihm eine rhetorische Frage über die Wange, dann setzte es seinen Weg fort. Unterwegs traf es eine Copy. Die Copy warnte das Blindtextchen, da,
+                    wo sie herkäme wäre sie zigmal umgeschrieben worden und alles, was von ihrem Ursprung noch übrig wäre, sei das Wort "und" und das Blindtextchen solle umkehren und wieder in sein eigenes,
+                    sicheres Land zurückkehren. Doch alles Gutzureden konnte es nicht überzeugen und so dauerte es nicht lange, bis ihm ein paar heimtückische Werbetexter auflauerten, es mit Longe und Parole
+                    betrunken machten und es dann in ihre Agentur schleppten, wo sie es für ihre Projekte wieder und wieder mißbrauchten.</p>
+                    <p>Und wenn es nicht umgeschrieben wurde, dann benutzen Sie es immernoch. <a href="#jumph4">Anchor</a></p>
+                    <hr>
+                    <h4><a id="jumph4">Headline h4</a></h4>
+                    <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik,
+                    eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land,
+                    in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben.</p>
+                    <p>Eines Tages aber beschloß eine kleine Zeile Blindtext, ihr Name war Lorem Ipsum, hinaus zu gehen in die weite Grammatik. Der große Oxmox riet ihr davon ab,
+                    da es dort wimmele von bösen Kommata, wilden Fragezeichen und hinterhältigen Semikoli, doch das Blindtextchen ließ sich nicht beirren. Es packte seine sieben Versalien,
+                    schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück auf die Skyline
+                    seiner Heimatstadt Buchstabhausen, die Headline von Alphabetdorf und die Subline seiner eigenen Straße, der Zeilengasse.</p>
+                    <p>Wehmütig lief ihm eine rhetorische Frage über die Wange, dann setzte es seinen Weg fort. Unterwegs traf es eine Copy. Die Copy warnte das Blindtextchen, da,
+                    wo sie herkäme wäre sie zigmal umgeschrieben worden und alles, was von ihrem Ursprung noch übrig wäre, sei das Wort "und" und das Blindtextchen solle umkehren und wieder in sein eigenes,
+                    sicheres Land zurückkehren. Doch alles Gutzureden konnte es nicht überzeugen und so dauerte es nicht lange, bis ihm ein paar heimtückische Werbetexter auflauerten, es mit Longe und Parole
+                    betrunken machten und es dann in ihre Agentur schleppten, wo sie es für ihre Projekte wieder und wieder mißbrauchten.</p>
+                    <p>Und wenn es nicht umgeschrieben wurde, dann benutzen Sie es immernoch. <a href="#jumph5">Anchor</a></p>
+                    <hr>
+                    <h5><a id="jumph5">Headline h5</a></h5>
+                    <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik,
+                    eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land,
+                    in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben.</p>
+                    <p>Eines Tages aber beschloß eine kleine Zeile Blindtext, ihr Name war Lorem Ipsum, hinaus zu gehen in die weite Grammatik. Der große Oxmox riet ihr davon ab,
+                    da es dort wimmele von bösen Kommata, wilden Fragezeichen und hinterhältigen Semikoli, doch das Blindtextchen ließ sich nicht beirren. Es packte seine sieben Versalien,
+                    schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück auf die Skyline
+                    seiner Heimatstadt Buchstabhausen, die Headline von Alphabetdorf und die Subline seiner eigenen Straße, der Zeilengasse.</p>
+                    <p>Wehmütig lief ihm eine rhetorische Frage über die Wange, dann setzte es seinen Weg fort. Unterwegs traf es eine Copy. Die Copy warnte das Blindtextchen, da,
+                    wo sie herkäme wäre sie zigmal umgeschrieben worden und alles, was von ihrem Ursprung noch übrig wäre, sei das Wort "und" und das Blindtextchen solle umkehren und wieder in sein eigenes,
+                    sicheres Land zurückkehren. Doch alles Gutzureden konnte es nicht überzeugen und so dauerte es nicht lange, bis ihm ein paar heimtückische Werbetexter auflauerten, es mit Longe und Parole
+                    betrunken machten und es dann in ihre Agentur schleppten, wo sie es für ihre Projekte wieder und wieder mißbrauchten.</p>
+                    <p>Und wenn es nicht umgeschrieben wurde, dann benutzen Sie es immernoch. <a href="#jumph6">Anchor</a></p>
+                    <hr>
+                    <h6><a id="jumph6">Headline h6</a></h6>
+                    <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik,
+                    eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land,
+                    in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben.</p>
+                    <p>Eines Tages aber beschloß eine kleine Zeile Blindtext, ihr Name war Lorem Ipsum, hinaus zu gehen in die weite Grammatik. Der große Oxmox riet ihr davon ab,
+                    da es dort wimmele von bösen Kommata, wilden Fragezeichen und hinterhältigen Semikoli, doch das Blindtextchen ließ sich nicht beirren. Es packte seine sieben Versalien,
+                    schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück auf die Skyline
+                    seiner Heimatstadt Buchstabhausen, die Headline von Alphabetdorf und die Subline seiner eigenen Straße, der Zeilengasse.</p>
+                    <p>Wehmütig lief ihm eine rhetorische Frage über die Wange, dann setzte es seinen Weg fort. Unterwegs traf es eine Copy. Die Copy warnte das Blindtextchen, da,
+                    wo sie herkäme wäre sie zigmal umgeschrieben worden und alles, was von ihrem Ursprung noch übrig wäre, sei das Wort "und" und das Blindtextchen solle umkehren und wieder in sein eigenes,
+                    sicheres Land zurückkehren. Doch alles Gutzureden konnte es nicht überzeugen und so dauerte es nicht lange, bis ihm ein paar heimtückische Werbetexter auflauerten, es mit Longe und Parole
+                    betrunken machten und es dann in ihre Agentur schleppten, wo sie es für ihre Projekte wieder und wieder mißbrauchten.</p>
+                    <p>Und wenn es nicht umgeschrieben wurde, dann benutzen Sie es immernoch. <a href="#jumpStrong">Anchor</a></p>
+                    <hr>
+                    <strong><a id="jumpStrong">Headline strong</a></strong>
+                    <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik,
+                    eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land,
+                    in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht – ein geradezu unorthographisches Leben.</p>
+                    <p>Eines Tages aber beschloß eine kleine Zeile Blindtext, ihr Name war Lorem Ipsum, hinaus zu gehen in die weite Grammatik. Der große Oxmox riet ihr davon ab,
+                    da es dort wimmele von bösen Kommata, wilden Fragezeichen und hinterhältigen Semikoli, doch das Blindtextchen ließ sich nicht beirren. Es packte seine sieben Versalien,
+                    schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es einen letzten Blick zurück auf die Skyline
+                    seiner Heimatstadt Buchstabhausen, die Headline von Alphabetdorf und die Subline seiner eigenen Straße, der Zeilengasse.</p>
+                    <p>Wehmütig lief ihm eine rhetorische Frage über die Wange, dann setzte es seinen Weg fort. Unterwegs traf es eine Copy. Die Copy warnte das Blindtextchen, da,
+                    wo sie herkäme wäre sie zigmal umgeschrieben worden und alles, was von ihrem Ursprung noch übrig wäre, sei das Wort "und" und das Blindtextchen solle umkehren und wieder in sein eigenes,
+                    sicheres Land zurückkehren. Doch alles Gutzureden konnte es nicht überzeugen und so dauerte es nicht lange, bis ihm ein paar heimtückische Werbetexter auflauerten, es mit Longe und Parole
+                    betrunken machten und es dann in ihre Agentur schleppten, wo sie es für ihre Projekte wieder und wieder mißbrauchten.</p>
+                    <p>Und wenn es nicht umgeschrieben wurde, dann benutzen Sie es immernoch. <a href="#jumph1">Anchor</a></p>
+                </span>
+                <hr>
+                <button type="button" class="btn btn-primary float-right" data-toggle="slide" data-target="#docs">Close</button>
+            </div>
+            <!-- Slide Docs : End -->
+
+        </div>
+        <!-- Content : End -->
+
+    </div>
+    <!-- Content Row : End -->
+
+    <!-- Modal : Begin -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal-Dialog</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="scrollpanel modal-body">
+                    <p>Weit hinten, hinter den Wortbergen, fern der Länder Vokalien und Konsonantien leben die Blindtexte. Abgeschieden wohnen sie in Buchstabhausen an der Küste des Semantik, eines großen Sprachozeans. Ein kleines Bächlein namens Duden fließt
+                        durch ihren Ort und versorgt sie mit den nötigen Regelialien. Es ist ein paradiesmatisches Land, in dem einem gebratene Satzteile in den Mund fliegen. Nicht einmal von der allmächtigen Interpunktion werden die Blindtexte beherrscht
+                        – ein geradezu unorthographisches Leben.</p>
+                    <p>Eines Tages aber beschloß eine kleine Zeile Blindtext, ihr Name war Lorem Ipsum, hinaus zu gehen in die weite Grammatik. Der große Oxmox riet ihr davon ab, da es dort wimmele von bösen Kommata, wilden Fragezeichen und hinterhältigen
+                        Semikoli, doch das Blindtextchen ließ sich nicht beirren. Es packte seine sieben Versalien, schob sich sein Initial in den Gürtel und machte sich auf den Weg. Als es die ersten Hügel des Kursivgebirges erklommen hatte, warf es
+                        einen letzten Blick zurück auf die Skyline seiner Heimatstadt Buchstabhausen, die Headline von Alphabetdorf und die Subline seiner eigenen Straße, der Zeilengasse.</p>
+                </div>
+                <div class="modal-footer">
+                    <!-- Button Group : Begin -->
+                    <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                        <button type="button" class="btn btn-outline-secondary">1</button>
+                        <button type="button" class="btn btn-outline-secondary">2</button>
+                        <button type="button" class="btn btn-outline-secondary disabled" tabindex="-1">3</button>
+                        <div class="btn-group" role="group">
+                            <button id="btnGroupDrop1" type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+                            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+                                <a class="dropdown-item active" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <a class="dropdown-item disabled" tabindex="-1" href="#">Disabled action</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Button Group : End -->
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal : End -->
+
+    <!-- Footer : Begin -->
+    <footer class="footer bg-white">
+        <div class="row">
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-5">
+                <p>&copy; 2017 Open Text Web Solutions Usergroup e.V.</p>
+            </div>
+            <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-7">
+                <button type="button" class="btn btn-outline-secondary float-right">Cancel</button>
+                <button type="button" class="btn btn-primary float-right">Save changes</button>
+                <div class="btn-group dropup float-right">
+                    <button type="button" class="btn btn-outline-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropup</button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer : Begin -->
+
+    <!-- jQuery first, then Tether, then Bootstrap JS. -->
+    <script src="js/jquery-v3.2.1.min.js"></script>
+    <script src="js/jquery-v3.1.3.mousewheel.min.js"></script>
+    <script src="js/jquery-v0.7.0.scrollpanel.min.js"></script>
+    <script src="js/jquery-v1.1.0.wait.min.js"></script>
+    <script src="js/tether-v1.3.3.min.js"></script>
+    <script src="js/handlebars-v4.0.5.runtime.js"></script>
+    <script src="js/bootstrap-v4.0.0-alpha.6.min.js"></script>
+    <script src="rqlconnector/rqlconnector-v16.0.0.min.js"></script>
+    <script src="js/bootstrap-wsm-r16-basic-v1.0.0-alpha.6.min.js"></script>
+</body>
+
+</html>
